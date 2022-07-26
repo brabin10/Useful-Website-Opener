@@ -1,9 +1,6 @@
 import React from "react";
-import  ReactDOM  from "react-dom";
+import ReactDOM from "react-dom";
+import "./style.css";
+import App from './App'
 
-
-function App(){
-    return <h1>Hello World</h1>
-}
-
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
